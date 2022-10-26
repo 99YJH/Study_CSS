@@ -1,0 +1,9 @@
+/*
+    style.css
+    작성자: 류정원
+    내용: CSS를 적용하는 방법(외부 스타일)
+*/
+h2{ font-size: 50px;} /* h2 요소의 사이즈를 50px로 설정 */
+p{ font-size: 25px;}
+ul{ list-style: none;}
+li{ color: deeppink; font-weight: bold; display: inline-block; margin-right: 30px;}
