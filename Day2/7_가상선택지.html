@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 선택지</title>
+    <style>
+        .list > li:first-child{ color: deeppink}
+        .list > li:nth-child(2) {color: gold}
+        .list > li:nth-child(odd) { background-color: greenyellow;}
+
+        a:link { text-decoration: none; }
+        a:visited { text-decoration: none; color: deepskyblue;}
+        a:hover { text-decoration: underline; color: deeppink};
+        a:active{ text-decoration: underline; color: gold};
+
+        a::before {content: '🍗';}
+        a::after {content: '🍕'}
+    </style>
+</head>
+<body>
+    <h2>가상 선택지</h2>
+    <ul class="list">
+        <li>첫번째</li>
+        <li>두번째</li>
+        <li>세번째</li>
+        <li>네번째</li>
+    </ul>
+    <p><a href="https://spring.io">스프링 공식 홈페이지로 이동</a></p>
+    
+</body>
+</html>

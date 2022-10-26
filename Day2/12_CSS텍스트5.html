@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 텍스트 5</title>
+    <style>
+        p{
+            display: inline-block;
+            width: 200px;
+            border: 1px solid red;
+        }
+        .tof1{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        .tof2{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        .of1{
+            height: 200px;
+            overflow: scroll;
+        }
+        .of2{
+            height: 200px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        .content{
+            border:3px dotted blue;
+            width: 400px;
+            padding: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .content:hover{overflow: visible;}
+    </style>
+</head>
+<body>
+    <h2>CSS 텍스트 5</h2>
+    <p class="to1f">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae ducimus, deserunt tenetur minima beatae doloremque veniam praesentium laborum perferendis animi optio quod enim nisi, aspernatur cupiditate consequuntur aliquid molestias?</p>
+    <p class="tof2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae ducimus, deserunt tenetur minima beatae doloremque veniam praesentium laborum perferendis animi optio quod enim nisi, aspernatur cupiditate consequuntur aliquid molestias?</p>
+    <p class="of1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae ducimus, deserunt tenetur minima beatae doloremque veniam praesentium laborum perferendis animi optio quod enim nisi, aspernatur cupiditate consequuntur aliquid molestias?</p>
+    <p class="of2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae ducimus, deserunt tenetur minima beatae doloremque veniam praesentium laborum perferendis animi optio quod enim nisi, aspernatur cupiditate consequuntur aliquid molestias?</p>
+    <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo illum illo ab saepe laudantium hic accusamus necessitatibus, non eius! Beatae similique consequatur enim! Molestias itaque aperiam sequi odio vel!</div>
+</body>
+</html>
