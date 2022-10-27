@@ -1,0 +1,41 @@
+.d1{
+    width: 1000px;
+    height: 660px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 15px;
+}
+header{
+    padding: 15px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+.m1{
+    width: 180px;
+    height: 190px;
+    border: 1px solid gray;
+    padding: 20px;
+    float: left;
+}
+.m2{
+    width: 490px;
+    height: 300px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 15px;
+    padding:15px;
+    margin-bottom: 15px;
+}
+.m3{
+    float: right;
+    border: 1px solid gray;
+    width:180px;
+    height:190px;
+    padding: 20px;
+    
+}
+footer{
+    clear:both;
+    padding: 15px;
+    border: 1px solid gray;    
+}
