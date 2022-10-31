@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다단 레이아웃</title>
+<style>
+    div, h2, p{margin:0;padding:0;}
+    body{margin:10px;}
+    h2{padding: 0 0 20px; text-align: center;}
+    div.col{
+        text-align: justify;
+        padding:20px;
+        background-color: gold;
+        column-count: 3;
+        column-gap: 30px;
+        column-rule: 3px dashed red;
+    }
+    .col>h2{ column-span: all;}
+</style>
+</head>
+<body>
+    <div class="col">
+    <h2>다단 레이아웃</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nesciunt unde mollitia, repellendus molestias iusto laboriosam adipisci harum? Consequatur dolorem perspiciatis blanditiis voluptate modi minus magni soluta, dolore consequuntur vero.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. At sapiente voluptate quis, totam recusandae perspiciatis vel earum dolores corporis eum neque molestias minus cupiditate, autem reiciendis quam exercitationem perferendis dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est exercitationem alias, obcaecati at quo illo atque, ex quidem ipsum, reiciendis molestias non dicta magnam numquam nesciunt reprehenderit soluta aperiam qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati quibusdam, porro illo exercitationem nemo, omnis veniam rerum itaque, similique ipsa deleniti cumque at non quam officia. Ea, quo earum?</p>
+    </div>
+</body>
+</html>
